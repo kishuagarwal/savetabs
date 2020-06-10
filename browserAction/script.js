@@ -34,7 +34,7 @@ document.getElementById('restoreTabs').onclick = event => {
             
             // Remove privileged urls
             let unsafePrefix = ['chrome:', 'javascript:', 'data:', 'file:','about:config',
-        'about:addons', 'about:debugging', 'about:devtools-toolbox'];
+        'about:addons', 'about:debugging', 'about:privatebrowsing', 'about:devtools-toolbox'];
 
             let safeUrls = [];
             for (let tabUrl of tabUrls) {
